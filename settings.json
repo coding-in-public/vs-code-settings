@@ -148,8 +148,10 @@
   "workbench.colorTheme": "Palenight Operator",
   "debug.disassemblyView.showSourceCode": false,
   "emmet.preferences": {},
+  // fix problem where css files were being interpreted as postcss
   "files.associations": {
     "*.css": "css"
   },
+  // remove react import for components when using React extension
   "reactSnippets.settings.importReactOnTop": false,
 }
